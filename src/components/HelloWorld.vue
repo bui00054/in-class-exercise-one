@@ -27,6 +27,18 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+  <!-- v-bind & v-model-->
+  <label for="firstName" v-bind:class="box"></label>
+  <input type="text" v-model="inputValue">
+
+  <!-- v-if -->
+  <div class="length-display">{{inputValue.length}}</div>
+  <div v-if="inputValue.length>50">
+    you exceeded 50 characters!
+  </div>
+
+  <!-- v-bind -->
+  <button v-bind="handleClick">Submit</button>
   </div>
 </template>
 
