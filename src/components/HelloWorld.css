@@ -1,0 +1,40 @@
+.length-display{
+    color: red;
+}
+
+.red-line{
+    border: 1px red solid;
+}
+
+.hello{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 0;
+    width: 150px;
+    font-size: 2rem;
+    color: white;
+    background-color: green;
+}
+
+.inline-validation{
+    color:red;
+}
+
+.red-border{
+    border: 2px solid red;
+}
+
+button:disabled {
+    opacity: .5;
+}
